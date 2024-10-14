@@ -27,3 +27,9 @@
     @apply min-w-[156px] h-[56px] px-6 bg-accent hover:bg-accent-hover text-primary text-[13px] uppercase font-semibold tracking-[.15em] transition-all;
   }
 }
+
+/* swiper navigtion arrow style */
+swiper-button-next::after,
+swiper-button-prev::after {
+  @apply text-primary !text-[2rem];
+}
