@@ -29,7 +29,7 @@
 }
 
 /* swiper navigtion arrow style */
-swiper-button-next::after,
-swiper-button-prev::after {
+.swiper-button-next::after,
+.swiper-button-prev::after {
   @apply text-primary !text-[2rem];
 }
