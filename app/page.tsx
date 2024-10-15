@@ -4,6 +4,7 @@ import About from "@/components/About";
 import Explore from "@/components/Explore";
 import Hero from "@/components/Hero";
 import Menu from "@/components/menu/Menu";
+import OpeningHour from "@/components/OpeningHour";
 import Testimonial from "@/components/Testimonial";
 import React, { useEffect } from "react";
 
@@ -22,6 +23,7 @@ const Home = () => {
       <Explore />
       <About />
       <Menu />
+      <OpeningHour />
       <Testimonial />
       {/* temparory div */}
       <div className="h-[4000px]"></div>
