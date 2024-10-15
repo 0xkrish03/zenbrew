@@ -33,6 +33,7 @@ const Footer = () => {
               return (
                 <Link
                   href={link.href}
+                  key={index}
                   className="text-white uppercase tracking-widest hover:text-accent transition-all"
                 >
                   {link.name}
